@@ -16,11 +16,14 @@ public class PingResource {
     @Inject
     PingCounter counter;
 
+    @Inject
+    String message;
+
     @GET
     @Metered
     public String ping() {
         this.counter.nextPing();
-        return "Enjoy Java EE 8!";
+        return "Enjoy Java EE 8 + ! " + this.message;
     }
 
 }
