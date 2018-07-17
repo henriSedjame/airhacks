@@ -43,3 +43,7 @@ https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis
 
 https://browsersync.io/
 https://emmet.io
+
+http://cssnext.io
+
+https://caniuse.com/#search=fetch
